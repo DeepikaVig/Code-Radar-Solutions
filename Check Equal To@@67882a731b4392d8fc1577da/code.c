@@ -7,7 +7,7 @@ int main() {
         prinf("True");
     }
     else{
-        print("False");
+        printf("False");
     }
     return 0;
 }
