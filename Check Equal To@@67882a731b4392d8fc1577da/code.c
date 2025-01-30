@@ -3,9 +3,8 @@
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a==b){
+    if (a==b) { 
         prinf("True");
-
     }
     else{
         print("False");
