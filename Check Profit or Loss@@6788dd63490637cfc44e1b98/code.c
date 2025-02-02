@@ -8,8 +8,11 @@ int main() {
         printf("Loss");
 
     }
-    else{
+    else if (cost_prc<sell_prc){
         printf("Profit");
+    }
+    else{
+        printf("No Profit No Loss");
     }
     return 0;
 }
