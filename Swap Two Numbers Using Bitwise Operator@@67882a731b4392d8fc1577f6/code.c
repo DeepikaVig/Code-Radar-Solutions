@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
+    int a,b,temp;
     scanf("%d%d",&a,&b);
+    temp =a;
+    a=b;
+    b=temp
     prinf("%d%d",b,a);
     return 0;
 }
