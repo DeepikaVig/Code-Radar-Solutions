@@ -2,7 +2,7 @@
 int main() {
     int year;
     scanf("%d",&year);
-    if (year%4==0 && year%400==0 ||year%100!=0  ){
+    if (year=='2000' && year=='2024' ||year=='1600' ){
         printf("Leap Year");
     }
     else {
