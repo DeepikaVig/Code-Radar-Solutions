@@ -16,7 +16,7 @@ int main() {
     } else if (ch >= '0' && ch <= '9') { // Check if digit
         printf("Digit\n");
     } else {
-        printf("Special character\n");
+        printf("Special Character\n");
     }
 
     return 0;
