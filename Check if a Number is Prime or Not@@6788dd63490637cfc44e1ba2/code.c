@@ -1,15 +1,15 @@
 // Your code here...
 #include<stdio.h>
 void main(){
-    int num,count =0;
+    int num,prime=1;
     scanf("%d",&num);
-    for (int i=2;i<num/2;i++){
+    for (int i=2;i<num-1;i++){
         if(num%i==0){
-            count=count+1;
+            prime=0;
             break;
         }
     }
-    if(count==0 && num>1){
+    if(prime){
         printf("Prime");
     }
     else{
