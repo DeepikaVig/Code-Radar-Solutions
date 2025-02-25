@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 int main() {
     char ch;
@@ -7,14 +6,14 @@ int main() {
     printf("Enter a character: ");
     scanf("%c", &ch);
 
-    if (isalpha(ch)) {
-        ch = tolower(ch); // Convert to lowercase for easier vowel check
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) { // Check if alphabet
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+            ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
             printf("Vowel\n");
         } else {
             printf("Consonant\n");
         }
-    } else if (isdigit(ch)) {
+    } else if (ch >= '0' && ch <= '9') { // Check if digit
         printf("Digit\n");
     } else {
         printf("Special character\n");
