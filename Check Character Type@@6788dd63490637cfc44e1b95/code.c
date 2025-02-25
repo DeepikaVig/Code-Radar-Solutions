@@ -10,7 +10,7 @@ void main(){
     else{
         printf("Consonant");
     }
-    }
+    
 
 
 }
