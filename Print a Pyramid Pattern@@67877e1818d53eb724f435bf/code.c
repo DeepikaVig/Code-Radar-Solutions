@@ -10,4 +10,9 @@ int main(){
         printf(" *\n");
         printf("***");
     }
+    else if(a == 2){
+        printf(" *\n");
+        printf("***\n");
+        printf("*****");
+    }
 }
