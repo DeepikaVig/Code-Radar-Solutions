@@ -16,6 +16,6 @@ int main(){
     }
     else if(rows == 2){
         printf("* *\n");
-        printtf("*");
+        printf("*");
     }
 }
