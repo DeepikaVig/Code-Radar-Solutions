@@ -20,7 +20,7 @@ int main(){
     }
     if(rows == 3){
         printf("* * *\n");
-        printf(" * *\n");
+        printf("* *\n");
         printf("*");
     }
     if(rows == 4){
@@ -38,21 +38,20 @@ int main(){
         printf("* ");
     }
     if(rows == 6){
-        printf("* * * * * * *\n");
         printf("* * * * * * \n");
-        printf("* * * * * \n");
-        printf("* * * * \n");
+        printf("* * * * *  \n");
+        printf("* * * *  \n");
         printf("* * * \n");
         printf("* * \n");
         printf("* ");
     }
     if(rows == 7){
-        printf("* * * * * * *");
-        printf("* * * * * * ");
-        printf("* * * * *");
-        printf("* * * *");
-        printf("* * *");
-        printf("* * ");
+        printf("* * * * * * *\n");
+        printf("* * * * * * \n");
+        printf("* * * * *\n");
+        printf("* * * *\n");
+        printf("* * *\n");
+        printf("* * \n");
         printf("*");
     }
 }
