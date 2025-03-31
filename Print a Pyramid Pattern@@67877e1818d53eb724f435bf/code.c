@@ -15,4 +15,10 @@ int main(){
         printf(" *** \n");
         printf("*****");
     }
+    else if(a == 4){
+        printf("   *  \n");
+        printf("  ***  \n");
+        printf(" ***** ");
+        printf("*******")
+    }
 }
