@@ -18,4 +18,44 @@ int main(){
         printf("* *\n");
         printf("*");
     }
+    if(rows == 3){
+        printf("*");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+    }
+    if(rows == 4){
+        printf("*");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+    }
+    if(rows == 5){
+        printf("*");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+    }
+    if(rows == 6){
+        printf("*");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+        printf("* * * * * * *");
+    }
+    if(rows == 7){
+        printf("* * * * * * *");
+        printf("* * * * * * ");
+        printf("* * * * *");
+        printf("* * * *");
+        printf("* * *");
+        printf("* * ");
+        printf("*");
+    }
 }
