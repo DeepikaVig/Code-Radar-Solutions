@@ -11,8 +11,8 @@ int main(){
         printf("***");
     }
     else if(a == 3){
-        printf(" *\n");
-        printf("***\n");
+        printf("  * \n");
+        printf(" *** \n");
         printf("*****");
     }
 }
