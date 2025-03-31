@@ -19,35 +19,32 @@ int main(){
         printf("*");
     }
     if(rows == 3){
+        printf("* * *\n");
+        printf(" * *\n");
         printf("*");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
     }
     if(rows == 4){
-        printf("*");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
+        printf("* * * * \n");
+        printf("* * *\n");
+        printf("* *\n");
+        printf("* ");
     }
     if(rows == 5){
-        printf("*");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
+        
+        printf("* * * * * \n");
+        printf("* * * * \n");
+        printf("* * * \n");
+        printf("* * \n");
+        printf("* ");
     }
     if(rows == 6){
-        printf("*");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
-        printf("* * * * * * *");
+        printf("* * * * * * *\n");
+        printf("* * * * * * \n");
+        printf("* * * * * \n");
+        printf("* * * * \n");
+        printf("* * * \n");
+        printf("* * \n");
+        printf("* ");
     }
     if(rows == 7){
         printf("* * * * * * *");
