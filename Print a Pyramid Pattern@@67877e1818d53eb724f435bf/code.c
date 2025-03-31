@@ -6,7 +6,7 @@ int main(){
     if(a == 1){
         printf("*");
     }
-    else if(rows == 2){
+    else if(a == 2){
         printf(" *\n");
         printf("***");
     }
