@@ -36,4 +36,13 @@ int main(){
         printf(" ********* \n");
         printf("***********");
     }
+    else if(a == 7){
+        printf("      *     \n");
+        printf("     ***     \n");
+        printf("    *****    \n");
+        printf("   *******   \n");
+        printf("  *********  \n");
+        printf(" *********** \n");
+        printf("*************");
+    }
 }
