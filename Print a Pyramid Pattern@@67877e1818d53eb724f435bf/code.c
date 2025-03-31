@@ -10,7 +10,7 @@ int main(){
         printf(" *\n");
         printf("***");
     }
-    else if(a == 2){
+    else if(a == 3){
         printf(" *\n");
         printf("***\n");
         printf("*****");
