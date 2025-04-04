@@ -12,7 +12,7 @@ int main(){
     else if(a == 3){
         printf("*** \n");
         printf("* * \n");
-        printf("***");
+        printf("***");}
     // }
     // else if(a == 4){
     //     printf("* * * * \n");
