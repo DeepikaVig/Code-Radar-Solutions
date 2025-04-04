@@ -68,4 +68,20 @@ int main(){
         printf("      *\n");
         // printf("*************\n");
     }
+    else if(a == 7){
+        printf("      *     \n");
+        printf("     ***     \n");
+        printf("    *****    \n");
+        printf("   *******   \n");
+        printf("  *********  \n");
+        printf(" *********** \n");
+        
+        printf("*************\n");
+        printf(" ***********\n");
+        printf("  *********\n");
+        printf("   *******\n");
+        printf("    *****\n");
+        printf("     ***\n");
+        printf("      *\n");
+    }
 }
