@@ -31,11 +31,11 @@ int main(){
     }
     else if(a == 6){
         printf("     *    \n");
-        printf("    ***    \n");
-        printf("   *****   \n");
-        printf("  *******  \n");
-        printf(" ********* \n");
-        printf("***********");
+        printf("    **    \n");
+        printf("   ***   \n");
+        printf("  ****  \n");
+        printf(" ***** \n");
+        printf("******");
     }
     else if(a == 7){
         printf("       *     \n");
