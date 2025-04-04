@@ -6,7 +6,7 @@ int main(){
     // if(a == 1){
     //     printf("*");
     // }
-    else if(a == 2){
+    if(a == 2){
         printf("**\n");
         printf("**");
     }
