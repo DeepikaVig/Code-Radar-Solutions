@@ -17,7 +17,7 @@ int main(){
         printf(" *** \n");
         printf("*****\n");
         printf(" *** \n");
-        printf(" * \n");
+        printf("  * \n");
     }
     else if(a == 4){
         printf("   *  \n");
