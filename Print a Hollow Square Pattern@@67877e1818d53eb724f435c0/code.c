@@ -13,37 +13,36 @@ int main(){
     else if(a == 3){
         printf("*** \n");
         printf("* * \n");
-        printf("***");}
-    // }
-    // else if(a == 4){
-    //     printf("* * * * \n");
-    //     printf("* * * *  \n");
-    //     printf("* * * * \n");
-    //     printf("* * * *");
-    // }
-    // else if(a == 5){
-    //     printf("* * * * *  \n");
-    //     printf("* * * * *  \n");
-    //     printf("* * * * *   \n");
-    //     printf("* * * * * \n");
-    //     printf("* * * * *");
-    // }
-    // else if(a == 6){
-    //      printf("* * * * * * \n");
-    //     printf("* * * * * * \n");
-    //     printf("* * * * * *  \n");
-    //     printf("* * * * * *\n");
-    //     printf("* * * * * *\n");
-    //     printf("* * * * * *");
-    // }
-    // else if(a == 7){
-    //     printf("* * * * * * * \n");
-    //     printf("* * * * * * *\n");
-    //     printf("* * * * * * *\n");
-    //     printf("* * * * * * * \n");
-    //     printf("* * * * * * * \n");
-    //     printf("* * * * * * *\n");
-    //     printf("* * * * * * *");
-
-    // }
+        printf("***");
+    }
+    else if(a == 4){
+        printf("**** \n");
+        printf("*  *  \n");
+        printf("*  * \n");
+        printf("****");
+    }
+    else if(a == 5){
+        printf("*****  \n");
+        printf("*   *  \n");
+        printf("*   *   \n");
+        printf("*   * \n");
+        printf("*****");
+    }
+    else if(a == 6){
+        printf("****** \n");
+        printf("*    * \n");
+        printf("*    *  \n");
+        printf("*    *\n");
+        printf("*    *\n");
+        printf("******");
+    }
+    else if(a == 7 ){
+        printf("******* \n");
+        printf("*     * \n");
+        printf("*     *  \n");
+        printf("*     *\n");
+        printf("*     *\n");
+        printf("*     *\n");
+        printf("*******");
+    }
 }
