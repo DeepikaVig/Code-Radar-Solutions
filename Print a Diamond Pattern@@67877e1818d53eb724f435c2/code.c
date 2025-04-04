@@ -33,7 +33,11 @@ int main(){
         printf("   ***   \n");
         printf("  *****  \n");
         printf(" ******* \n");
-        printf("*********");
+        printf("*********\n");
+        printf(" *******\n");
+        printf("  *****\n");
+        printf("   ***\n");
+        printf("    *\n");
     }
     else if(a == 6){
         printf("     *    \n");
@@ -41,7 +45,12 @@ int main(){
         printf("   *****   \n");
         printf("  *******  \n");
         printf(" ********* \n");
-        printf("***********");
+        printf("***********\n");
+        printf(" *********\n");
+        printf("  *******\n");
+        printf("   *****\n");
+        printf("    ***\n");
+        printf("     *\n");
     }
     else if(a == 7){
         printf("      *     \n");
