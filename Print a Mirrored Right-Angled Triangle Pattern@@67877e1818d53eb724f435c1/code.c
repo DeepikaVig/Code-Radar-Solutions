@@ -38,12 +38,12 @@ int main(){
         printf("***********");
     }
     else if(a == 7){
-        printf("      *     \n");
-        printf("     ***     \n");
-        printf("    *****    \n");
-        printf("   *******   \n");
-        printf("  *********  \n");
-        printf(" *********** \n");
-        printf("*************");
+        printf("       *     \n");
+        printf("      **     \n");
+        printf("     ***    \n");
+        printf("    ****   \n");
+        printf("   *****\n");
+        printf("  ****** \n");
+        printf("*******");
     }
 }
