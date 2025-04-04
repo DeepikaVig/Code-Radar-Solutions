@@ -18,9 +18,9 @@ int main(){
     }
     else if(a == 4){
         printf("   *  \n");
-        printf("  ***  \n");
-        printf(" ***** \n");
-        printf("*******");
+        printf("  **  \n");
+        printf(" *** \n");
+        printf("****");
     }
     else if(a == 5){
         printf("    *   \n");
